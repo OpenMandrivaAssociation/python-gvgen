@@ -1,6 +1,6 @@
 %define oname gvgen
 
-Summary: GvGen is a python class to generate dot files for further use with graphviz.
+Summary: Python class to generate dot files for further use with graphviz
 Name: python-gvgen
 Version: 0.6
 Release: %mkrel 1
@@ -13,7 +13,7 @@ BuildRequires: python-devel
 BuildRoot: %{_tmppath}/%{name}-buildroot
 
 %description
-python-gvgen:
+GvGen is a python class to generate dot files for further use with graphviz:
     * Edge creation, naming and connection
     * Apply any graphviz property on the fly
     * Apply graphviz properties to a style
