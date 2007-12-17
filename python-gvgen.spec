@@ -10,7 +10,6 @@ Source1: user-guide.tex.lyx
 License: GPL
 Group: Development/Python
 BuildRequires: python-devel
-BuildRoot: %{_tmppath}/%{name}-buildroot
 
 %description
 GvGen is a python class to generate dot files for further use with graphviz:
