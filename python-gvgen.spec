@@ -3,7 +3,7 @@
 Summary: Python class to generate dot files for further use with graphviz
 Name: python-gvgen
 Version: 0.9
-Release: %mkrel 5
+Release: %mkrel 6
 URL: http://software.inl.fr/trac/trac.cgi/wiki/GvGen
 Source0: http://software.inl.fr/releases/GvGen/%{oname}-%{version}.tar.bz2
 Source1: user-guide.tex.lyx
