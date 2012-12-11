@@ -39,3 +39,44 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(-,root,root)
 %doc ChangeLog
 %{py_puresitedir}/*
+
+
+%changelog
+* Sun Nov 21 2010 Funda Wang <fwang@mandriva.org> 0.9-7mdv2011.0
++ Revision: 599396
+- rebuild for py2.7
+
+* Tue Sep 15 2009 Thierry Vignaud <tv@mandriva.org> 0.9-6mdv2010.0
++ Revision: 442147
+- rebuild
+
+* Sat Jan 03 2009 Funda Wang <fwang@mandriva.org> 0.9-5mdv2009.1
++ Revision: 323726
+- rebuild
+
+* Fri Aug 01 2008 Thierry Vignaud <tv@mandriva.org> 0.9-4mdv2009.0
++ Revision: 259622
+- rebuild
+
+* Fri Jul 25 2008 Thierry Vignaud <tv@mandriva.org> 0.9-3mdv2009.0
++ Revision: 247426
+- rebuild
+
+* Fri Feb 29 2008 Jérôme Soyer <saispo@mandriva.org> 0.9-1mdv2008.1
++ Revision: 176737
+- Add files...
+- New release 0.9
+- New release 0.7
+
+  + Olivier Blin <oblin@mandriva.com>
+    - restore BuildRoot
+
+  + Thierry Vignaud <tv@mandriva.org>
+    - kill re-definition of %%buildroot on Pixel's request
+    - fix summary & description
+
+* Thu Nov 29 2007 Jérôme Soyer <saispo@mandriva.org> 0.6-1mdv2008.1
++ Revision: 113891
+- import python-gvgen
+
+
